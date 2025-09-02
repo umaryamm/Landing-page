@@ -1,0 +1,157 @@
+body{
+    background-color:white
+}
+.header{
+    display: flex;
+    background-color: #1f2937;
+    
+    
+    width: 90%;
+    padding: 75px;
+    justify-content: space-between;
+    margin: none;
+    
+    
+}
+.header-logo{
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.link {
+    display: flex;
+    gap:100px;
+    
+
+}
+.link a{
+    text-decoration:none;
+    color:aliceblue;
+}
+.hero{
+    background-color: #1f2937;
+    padding: 3px;
+    justify-content:space-between;
+    display:flex;
+}
+.hero-text h1{
+    color:aliceblue;
+    font-size: 48px;
+    padding-left: 65px;
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+.hero-text p{
+    color:aqua;
+    font-size:10px;
+    padding-left:65px;
+}
+.break{
+    display:block;
+    
+}
+.btn{
+    background-color: #3882f6;
+    color:white;
+    margin-top:10px;
+    margin-left:60px;
+    border: none;
+     padding: 10px 20px;
+    border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.img{
+    display: flex;
+    width:400px;
+    height:200px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.info{
+    background-color: white;
+    padding:20px;
+    text-align: center;
+    
+}
+.info h2{
+    margin-top: 0px;
+    font-size: 24px;
+}
+.info-boxes{
+    display:flex;
+    justify-content: centre;
+    gap:150px;
+    padding-left: 300px;
+}
+.text{
+    height:150px;
+    width:150px;
+    
+    background-color: white;
+    border: 3px solid blue;
+    
+    border-radius: 12px;
+  margin-bottom: 10px;
+
+}
+.box{
+    max-width: 150px;
+
+}
+.quote{
+    background-color:rgb(184, 182, 182);
+    padding:80px;
+    color:#1f2937;
+    font-size:20px;
+    text-align: center;
+}
+.s{
+    display:block;
+}
+.author{
+    color:black;
+    font-weight:bold;
+    text-align: right ;
+    margin-right:180px;
+
+}
+.cta{
+    background-color:white;
+    padding: 80px;
+    width: 70%;
+    
+    
+}
+.cta-text{
+        background-color:#3882f6;
+    color:white;
+    border: 8px solid #3882f6;
+    padding:40px;
+    display:flex;
+    justify-content: space-between; /* left text - right button */
+    align-items: center;            /* vertically center */
+}
+.signup{
+  background: white;
+  color: #3882f6;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+    
+    
+}
+.footer{
+    background-color: #1f2937;
+    padding: 8px;
+    width:100%;
+    text-align: center;
+}
